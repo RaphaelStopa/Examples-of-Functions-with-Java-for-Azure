@@ -1,29 +1,30 @@
-<b>Valores de chaves criados de forma randômica por proteção. Precisa ter o Maven para rodar.</b>
+<b>Randomly created key values for protection. You need Maven to run.</b>
 
 ---
 
-<b>Doc de como funciona</b>: 
+<b>Documentation of how it works</b>: 
 
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-integrate-store-unstructured-data-cosmosdb?tabs=csharp
 
 -----
 
-<b>Comandos e dicas</b>:
-1. Comece o projeto
+<b>Commands and tips</b>:
+1. Start the project
    * mvn archetype:generate -DarchetypeGroupId=com.microsoft.azure -DarchetypeArtifactId=azure-functions-archetype -DjavaVersion=8
-2. Rode o projeto local
+2. Run the local project
     * mvn clean package azure-functions:run
-3. Mande para o Azure
+3. Send to Azure
     * mvn clean package azure-functions:deploy
 ---
 
-Por que utilizar tecnologias como Serverless?
+Why use technologies like Serverless?
 
 https://blog.accurate.com.br/serverless/
 
 ---
 
-<b>Geralmente é estes parâmetros</b>:
+<b>It is usually these parameters</b>:
+
 AccountKey
 
 storageAccountName
